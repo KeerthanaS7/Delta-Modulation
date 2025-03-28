@@ -1,13 +1,14 @@
-
-AIM
+## Delta Modulation
+## AIM
 
 To perform Delta-Modulation using python
 
-Tools required
+## Tools required
 
-Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
+Python IDE
 
-PROGRAM
+## Program
+~~~
 
 import numpy as np import matplotlib.pyplot as plt from scipy.signal import butter, filtfilt
 
@@ -36,11 +37,11 @@ plt.subplot(3, 1, 2) plt.step(t, dm_output[:-1], label='Delta Modulated Signal',
 plt.subplot(3, 1, 3) plt.plot(t, filtered_signal[:-1], label='Demodulated & Filtered Signal', linestyle='dotted', linewidth=1, color='r') plt.legend() plt.grid()
 
 plt.tight_layout() plt.show()
-
-PROGRAM WAVEFRONT 
+~~~
+## PROGRAM WAVEFRONT 
 
 ![WhatsApp Image 2025-03-27 at 20 03 12_387f7317](https://github.com/user-attachments/assets/4f6f1255-3c88-4bd9-9d07-ec83868ca8d4)
 
-RESULT
+## RESULT
 
 THUS THE DELTA MODULATION SIGNAL IS PERFORMED USING PHYTON
